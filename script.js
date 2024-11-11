@@ -66,6 +66,7 @@ const openRecipePopup = (meal)=>{
   </div>
  `
  recipeDetailsContent.parentElement.style.display = "block";
+ recipeDetailsContent.parentElement.scrollTop = 0;
 }
 
 recipeCloseBtn.addEventListener("click", ()=>{
